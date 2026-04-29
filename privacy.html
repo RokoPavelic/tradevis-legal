@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Tradevis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">Tradevis</div>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: 29 April 2026</p>
+    </header>
+
+    <nav class="toc">
+      <strong>Contents</strong>
+      <ul>
+        <li><a href="#intro">1. Introduction</a></li>
+        <li><a href="#what">2. What we collect</a></li>
+        <li><a href="#how">3. How we use it</a></li>
+        <li><a href="#sharing">4. Service providers</a></li>
+        <li><a href="#retention">5. Data retention</a></li>
+        <li><a href="#rights">6. Your rights (GDPR)</a></li>
+        <li><a href="#security">7. Security</a></li>
+        <li><a href="#transfers">8. International transfers</a></li>
+        <li><a href="#children">9. Children</a></li>
+        <li><a href="#tracking">10. Tracking and advertising</a></li>
+        <li><a href="#changes">11. Changes</a></li>
+        <li><a href="#contact">12. Contact</a></li>
+      </ul>
+    </nav>
+
+    <h2 id="intro">1. Introduction</h2>
+    <p>This Privacy Policy describes how Tradevis (&ldquo;Tradevis&rdquo;, the &ldquo;app&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) collects, uses, and shares personal data when you use the Tradevis mobile application on iOS.</p>
+    <p>By creating an account or using Tradevis, you agree to the practices described here. If you do not agree, do not use the app.</p>
+
+    <h2 id="what">2. What we collect</h2>
+    <p>We collect only what is necessary to provide the app&rsquo;s functionality. The categories are:</p>
+
+    <table>
+      <thead>
+        <tr><th>Category</th><th>Examples</th><th>Source</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Account information</strong></td>
+          <td>Email address, password (stored as a salted hash, never in plaintext)</td>
+          <td>You provide it at sign-up</td>
+        </tr>
+        <tr>
+          <td><strong>Trading profile</strong></td>
+          <td>Methodology preference (SMC/ICT, ORB, etc.), preferred timeframes, risk percentage, trading sessions, self-identified weaknesses</td>
+          <td>You provide it during onboarding and in Settings</td>
+        </tr>
+        <tr>
+          <td><strong>Chat content</strong></td>
+          <td>Messages you send to the in-app AI coach (Tradevis Chat), including any text you write</td>
+          <td>You write it in the app</td>
+        </tr>
+        <tr>
+          <td><strong>Trade and account data</strong></td>
+          <td>Open positions, pending orders, trade history, account balance and equity, broker name and account number</td>
+          <td>Read from your MetaTrader 4/5 broker via MetaApi after you connect a broker account</td>
+        </tr>
+        <tr>
+          <td><strong>Subscription status</strong></td>
+          <td>Whether you have an active Tradevis Pro subscription, free-trial state, anonymized RevenueCat user identifier</td>
+          <td>From Apple App Store via RevenueCat</td>
+        </tr>
+        <tr>
+          <td><strong>Technical data</strong></td>
+          <td>Device type, iOS version, app version, IP address (used transiently for request routing), timestamps of activity</td>
+          <td>Collected automatically when you use the app</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>We do <strong>not</strong> collect: precise location, contacts, photos or camera content, microphone audio, health data, browsing history outside the app, or advertising identifiers (IDFA). We do not run third-party analytics or advertising SDKs.</p>
+
+    <h2 id="how">3. How we use it</h2>
+    <ul>
+      <li><strong>Provide the service.</strong> Authenticate you, deliver AI chat responses, sync your strategy profile across devices, display your trades and account state.</li>
+      <li><strong>Personalize coaching.</strong> Pass your trading profile and recent trades to the AI so it can tailor its analysis to your stated strategy and risk preferences.</li>
+      <li><strong>Manage your subscription.</strong> Verify entitlement to Pro features, restore purchases, handle the 7-day free trial.</li>
+      <li><strong>Maintain security and integrity.</strong> Detect abuse, enforce rate limits, prevent unauthorized access.</li>
+      <li><strong>Comply with law.</strong> Respond to lawful requests from competent authorities.</li>
+    </ul>
+    <p>Our legal bases under the GDPR are: performance of a contract with you (delivering the app you requested), our legitimate interests (security, abuse prevention), and your consent (where applicable, e.g. for optional features you enable).</p>
+
+    <h2 id="sharing">4. Service providers (sub-processors)</h2>
+    <p>We use the following third-party services to operate Tradevis. Each receives only the minimum data needed for its role:</p>
+
+    <table>
+      <thead>
+        <tr><th>Provider</th><th>What it sees</th><th>Purpose</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase</a> (United States)</td>
+          <td>Email, password hash, trading profile, chat messages, trade history, broker connection metadata, subscription status</td>
+          <td>Authentication, database, edge function backend</td>
+        </tr>
+        <tr>
+          <td><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI</a> (United States)</td>
+          <td>Your chat messages and the trading-context blocks we send with them (current pair, recent trades, strategy)</td>
+          <td>Generates AI coaching responses. We use the OpenAI API; per OpenAI&rsquo;s policy, API content is not used to train their models.</td>
+        </tr>
+        <tr>
+          <td><a href="https://metaapi.cloud/privacy" target="_blank" rel="noopener">MetaApi</a> (operated by Agilium Labs LLC)</td>
+          <td>Your MetaTrader 4/5 broker server, login, and read-only investor password (never your master password); your trades and account state</td>
+          <td>Connects securely to your broker to read positions and place trades you initiate in the app</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat</a> (United States)</td>
+          <td>Anonymized user identifier, App Store transaction receipts, subscription status</td>
+          <td>Subscription management, restore purchases, trial tracking</td>
+        </tr>
+        <tr>
+          <td><a href="https://finnhub.io/privacy-policy" target="_blank" rel="noopener">Finnhub</a> (United States)</td>
+          <td>Symbol queries (e.g. &ldquo;EURUSD&rdquo;), date ranges; <strong>no personal account data</strong></td>
+          <td>Economic calendar and market news lookups</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a></td>
+          <td>App Store purchase information for in-app subscriptions</td>
+          <td>Subscription billing through App Store; we do not see your payment card</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>We do not sell your personal data to anyone. We do not share your data with advertisers or data brokers.</p>
+
+    <h2 id="retention">5. Data retention</h2>
+    <ul>
+      <li><strong>Account and profile data:</strong> retained while your account is active. Deleted within 30 days of account deletion.</li>
+      <li><strong>Chat messages:</strong> retained for up to 90 days to support conversation history and the AI&rsquo;s short-term memory of your context. Deleted on account deletion.</li>
+      <li><strong>Trade history mirror:</strong> retained for the lifetime of your connected broker account; deleted on broker disconnect or account deletion.</li>
+      <li><strong>Server logs:</strong> retained up to 30 days for operational and security purposes.</li>
+      <li><strong>Subscription records:</strong> retained as required by tax and accounting law (typically 6 years in the EU).</li>
+    </ul>
+    <p>You can delete your account at any time from <strong>Settings &rarr; Delete Account</strong>. This triggers a cascade deletion across all systems we control.</p>
+
+    <h2 id="rights">6. Your rights (GDPR)</h2>
+    <p>If you are in the European Economic Area, the United Kingdom, or another jurisdiction granting equivalent rights, you have the following rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Access</strong> &mdash; request a copy of the data we hold about you.</li>
+      <li><strong>Rectification</strong> &mdash; correct inaccurate data (most fields are editable directly in the app).</li>
+      <li><strong>Erasure</strong> &mdash; have your data deleted (the in-app Delete Account button does this).</li>
+      <li><strong>Restriction</strong> &mdash; ask us to stop processing while a complaint is investigated.</li>
+      <li><strong>Portability</strong> &mdash; receive your data in a machine-readable format.</li>
+      <li><strong>Object</strong> &mdash; to processing based on legitimate interests.</li>
+      <li><strong>Withdraw consent</strong> &mdash; where processing is based on consent.</li>
+      <li><strong>Lodge a complaint</strong> &mdash; with your supervisory authority. In Croatia this is the <a href="https://azop.hr" target="_blank" rel="noopener">Croatian Personal Data Protection Agency (AZOP)</a>.</li>
+    </ul>
+    <p>To exercise any of these rights, email <a href="mailto:tradevis@proton.me">tradevis@proton.me</a>. We will respond within 30 days.</p>
+
+    <h2 id="security">7. Security</h2>
+    <p>We use industry-standard measures to protect your data: TLS for all network communication, password hashing with secure algorithms, row-level security policies on the database so users can only access their own rows, and least-privilege access controls for our backend.</p>
+    <p>No system is perfectly secure. If we become aware of a breach affecting your personal data, we will notify you and the relevant supervisory authority within 72 hours, as required by GDPR Article 33.</p>
+
+    <h2 id="transfers">8. International data transfers</h2>
+    <p>Some of our service providers (Supabase, OpenAI, MetaApi, RevenueCat, Finnhub) are based in or operate from the United States. When your data is transferred outside the European Economic Area, we rely on the European Commission&rsquo;s Standard Contractual Clauses (SCCs) and supplementary measures consistent with the Schrems II ruling.</p>
+
+    <h2 id="children">9. Children</h2>
+    <p>Tradevis is not directed to children. The app is rated 17+ on the App Store and discusses financial-trading concepts that are unsuitable for minors. We do not knowingly collect data from anyone under 17. If you believe a child has provided data to us, contact us and we will delete the account.</p>
+
+    <h2 id="tracking">10. Tracking and advertising</h2>
+    <p>Tradevis does not track you across other companies&rsquo; apps or websites. We do not use the AppTrackingTransparency framework because we do not engage in tracking as Apple defines it. We display no advertising. We do not use third-party analytics SDKs.</p>
+
+    <h2 id="changes">11. Changes to this policy</h2>
+    <p>We may update this policy as the app evolves or as legal requirements change. The &ldquo;Last updated&rdquo; date at the top will reflect the most recent revision. Material changes will be communicated in-app before they take effect. Continued use after a change constitutes acceptance.</p>
+
+    <h2 id="contact">12. Contact</h2>
+    <p>Questions, requests, or complaints regarding privacy:</p>
+    <p>Email: <a href="mailto:tradevis@proton.me">tradevis@proton.me</a></p>
+    <p style="font-size: 13px; color: #6e6e73; margin-top: 24px;">Tradevis is operated by Roko Pavelic, an individual based in Croatia, acting as the data controller for the purposes of the GDPR.</p>
+
+    <footer>
+      <p><a href="index.html">&larr; Back to Legal</a> &middot; <a href="terms.html">Terms of Use</a></p>
+    </footer>
+  </main>
+</body>
+</html>
