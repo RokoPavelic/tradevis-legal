@@ -11,7 +11,7 @@
     <header>
       <div class="brand">Tradevis</div>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 29 April 2026</p>
+      <p class="updated">Last updated: 2 May 2026</p>
     </header>
 
     <nav class="toc">
@@ -70,6 +70,21 @@
           <td>From Apple App Store via RevenueCat</td>
         </tr>
         <tr>
+          <td><strong>Saved coaching memory</strong></td>
+          <td>Short text snippets you ask Tradevis to remember (e.g. lessons, rules) and a vector representation of those snippets used to retrieve them in future conversations</td>
+          <td>You write it in the app and choose to save it</td>
+        </tr>
+        <tr>
+          <td><strong>Trade journal entries</strong></td>
+          <td>Optional emotion tags you attach to trades (e.g. &ldquo;planned&rdquo;, &ldquo;revenge&rdquo;, &ldquo;fomo&rdquo;), free-text notes, and AI-generated post-trade analysis</td>
+          <td>You provide it in the journal section of the app</td>
+        </tr>
+        <tr>
+          <td><strong>Push notification tokens</strong></td>
+          <td>A device-level identifier issued by Apple (APNs) used solely to deliver Tradevis notifications about scan signals and resolved setups. Not used for tracking and not shared with advertisers.</td>
+          <td>Issued by your device&rsquo;s OS when you allow notifications</td>
+        </tr>
+        <tr>
           <td><strong>Technical data</strong></td>
           <td>Device type, iOS version, app version, IP address (used transiently for request routing), timestamps of activity</td>
           <td>Collected automatically when you use the app</td>
@@ -123,6 +138,16 @@
           <td>Economic calendar and market news lookups</td>
         </tr>
         <tr>
+          <td><a href="https://expo.dev/privacy" target="_blank" rel="noopener">Expo</a> (United States)</td>
+          <td>Your device push token and the contents of notifications we send (e.g. &ldquo;EURUSD long signal resolved&rdquo;)</td>
+          <td>Relays push notifications from our backend to Apple&rsquo;s push service so they reach your device</td>
+        </tr>
+        <tr>
+          <td><a href="https://policies.yahoo.com/us/en/yahoo/privacy/" target="_blank" rel="noopener">Yahoo Finance</a> (United States)</td>
+          <td>Instrument symbols (e.g. &ldquo;EURUSD&rdquo;) and date ranges; <strong>no personal account data</strong></td>
+          <td>Public market candles when you have not connected a broker, so charts still load</td>
+        </tr>
+        <tr>
           <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a></td>
           <td>App Store purchase information for in-app subscriptions</td>
           <td>Subscription billing through App Store; we do not see your payment card</td>
@@ -135,7 +160,7 @@
     <h2 id="retention">5. Data retention</h2>
     <ul>
       <li><strong>Account and profile data:</strong> retained while your account is active. Deleted within 30 days of account deletion.</li>
-      <li><strong>Chat messages:</strong> retained for up to 90 days to support conversation history and the AI&rsquo;s short-term memory of your context. Deleted on account deletion.</li>
+      <li><strong>Chat messages and saved coaching memory:</strong> retained until you delete your account or remove the entry from Settings. Locally cached chat on your device is cleared when you sign out or uninstall the app.</li>
       <li><strong>Trade history mirror:</strong> retained for the lifetime of your connected broker account; deleted on broker disconnect or account deletion.</li>
       <li><strong>Server logs:</strong> retained up to 30 days for operational and security purposes.</li>
       <li><strong>Subscription records:</strong> retained as required by tax and accounting law (typically 6 years in the EU).</li>
@@ -161,7 +186,7 @@
     <p>No system is perfectly secure. If we become aware of a breach affecting your personal data, we will notify you and the relevant supervisory authority within 72 hours, as required by GDPR Article 33.</p>
 
     <h2 id="transfers">8. International data transfers</h2>
-    <p>Some of our service providers (Supabase, OpenAI, MetaApi, RevenueCat, Finnhub) are based in or operate from the United States. When your data is transferred outside the European Economic Area, we rely on the European Commission&rsquo;s Standard Contractual Clauses (SCCs) and supplementary measures consistent with the Schrems II ruling.</p>
+    <p>Some of our service providers (Supabase, OpenAI, MetaApi, RevenueCat, Finnhub, Expo, Yahoo Finance) are based in or operate from the United States. When your data is transferred outside the European Economic Area, we rely on the European Commission&rsquo;s Standard Contractual Clauses (SCCs) and supplementary measures consistent with the Schrems II ruling.</p>
 
     <h2 id="children">9. Children</h2>
     <p>Tradevis is not directed to children. The app is rated 17+ on the App Store and discusses financial-trading concepts that are unsuitable for minors. We do not knowingly collect data from anyone under 17. If you believe a child has provided data to us, contact us and we will delete the account.</p>
