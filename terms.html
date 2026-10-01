@@ -11,7 +11,7 @@
     <header>
       <div class="brand">Tradevis</div>
       <h1>Terms of Use</h1>
-      <p class="updated">Last updated: 17 May 2026</p>
+      <p class="updated">Last updated: 1 October 2026</p>
     </header>
 
     <div class="callout">
@@ -49,28 +49,34 @@
     <p>Tradevis is not available in jurisdictions where retail forex/CFD trading is prohibited or where the app would otherwise violate local law. You are responsible for confirming legality in your location.</p>
 
     <h2 id="service">3. The service</h2>
-    <p>Tradevis is an educational coaching tool for retail forex and CFD traders. Features include:</p>
+    <p>Tradevis is a trading-discipline tool for retail forex and CFD traders. Its core feature, Guardian, checks the rules you set before your orders reach your broker. Features include:</p>
     <ul>
-      <li>Strategy profile management (methodology, timeframes, risk preferences)</li>
-      <li>An in-app AI assistant that comments on your trading setups and provides post-trade analysis, with optional spoken (text-to-speech) responses</li>
-      <li>An AI overlay on the chart that gives a setup verdict and a structured trade plan for your current pair, with optional one-tap approval to place the trade at your connected broker</li>
-      <li>A market scanner that runs server-side on a fixed schedule and pushes educational signal notifications to subscribers (the signals are shared across all subscribers, not personalised)</li>
-      <li>Trading-DNA analytics derived from your trade journal (best/worst hours, sessions, pairs)</li>
-      <li>Psychology coaching prompts that watch for consecutive losses, revenge trading, and overtrading patterns</li>
-      <li>A persistent memory store you can teach with lessons and rules that the AI recalls in future conversations</li>
-      <li>Optional read-only or trading-enabled connection to your MetaTrader 4/5 broker via MetaApi</li>
-      <li>An optional in-app trading checklist with rules you can enable (e.g. block trade placement inside a high-impact news window)</li>
+      <li>Guardian &mdash; a pre-trade rule check: orders that break the limits and rules you set (for example daily loss limit, maximum drawdown, risk per trade, stop loss required, trading sessions, news blackout windows, trades per day) are refused before they are sent to your broker</li>
+      <li>Optional Auto-Protect, Stop-when-green and Rule Lock-In controls (see below)</li>
+      <li>Behavioural coaching that watches for consecutive losses, revenge trading and overtrading, including optional cooling-off periods</li>
+      <li>A trade journal with emotion tagging, discipline streaks and trading-DNA analytics derived from your trade history</li>
+      <li>AI-generated coaching notes and insights based on your trades, and a coaching memory of commitments you make</li>
+      <li>An optional accountability partner and a shareable discipline certificate</li>
+      <li>Optional connection to your MetaTrader 4/5 broker via MetaApi, a chart, and order placement and management at your broker</li>
     </ul>
-    <p>The app does not execute or settle trades on your behalf without your action; we are not a broker, dealer, or investment adviser. All order execution happens at your broker through MetaApi. Server-generated scanner signals are pushed for educational purposes only — placing a trade based on a signal is always your decision and your action.</p>
+    <p>Earlier versions of the app also offered an AI chat assistant with optional spoken replies, an AI chart overlay, a market scanner with signal notifications, and indicator setup alerts. These features are not part of the current version; where they remain in an older version you have installed, these Terms apply to them too.</p>
+    <p>We are not a broker, dealer, or investment adviser. All order execution happens at your broker through MetaApi. Tradevis does not place new trades on your own initiative.</p>
+    <p><strong>Guardian controls that act on your account.</strong> When you turn them on, the following act without asking you in the moment:</p>
+    <ul>
+      <li><strong>Auto-Protect</strong> closes every open position on the protected account (including positions opened outside Tradevis, e.g. in MT5) when your loss reaches the share of a limit you chose, and blocks new trades until your daily reset.</li>
+      <li><strong>Stop-when-green</strong> blocks new trades once your account reaches the daily profit target you set, until your daily reset.</li>
+      <li><strong>Rule Lock-In</strong> lets you lock your rules until your daily reset; while locked you can tighten them but not loosen them or disarm Guardian.</li>
+    </ul>
+    <p>These controls are best-effort risk tools, not guarantees. Market gaps, slippage, broker or connection outages, delays in account data, and orders placed outside Tradevis can mean a limit is still breached. Rules are only enforced on accounts where Guardian is armed. You remain solely responsible for your account and your trading, including any prop-firm rules you are subject to.</p>
 
     <h2 id="not-advice">4. Not financial advice</h2>
     <p>This is the most important section. Read it carefully.</p>
     <ul>
-      <li>Any analysis, signal, suggestion, commentary, score, or rationale displayed in Tradevis is for <strong>educational purposes only</strong>.</li>
+      <li>Any analysis, suggestion, commentary, score, coaching note, or rationale displayed in Tradevis is for <strong>educational purposes only</strong>.</li>
       <li>Tradevis is <strong>not</strong> a registered investment adviser, broker-dealer, or financial planner. Nothing in the app constitutes investment, legal, tax, or accounting advice.</li>
-      <li>AI-generated content can be inaccurate, incomplete, or out of date. The AI may produce signals that are wrong or that contradict the actual market.</li>
+      <li>AI-generated content can be inaccurate, incomplete, or out of date, and can contradict the actual market.</li>
       <li>You are solely responsible for any trading decision you make. You should consult a licensed professional before making investment decisions and conduct your own research.</li>
-      <li>We make <strong>no representation</strong> that you will earn a profit or avoid a loss using Tradevis. Past performance of any signal, strategy, or analysis is not indicative of future results.</li>
+      <li>We make <strong>no representation</strong> that you will earn a profit or avoid a loss using Tradevis. Past performance of any strategy or analysis is not indicative of future results.</li>
       <li>Trading carries a high risk of loss including the loss of your entire deposit and, with leveraged products, more than your initial deposit. Only risk capital you can afford to lose.</li>
     </ul>
 
@@ -82,30 +88,20 @@
     <p>Trades you initiate in Tradevis are sent to your broker through MetaApi. Execution speed, slippage, and order rejection are governed by your broker. We are not responsible for broker-side issues including downtime, connection problems, or rejected orders.</p>
 
     <h2 id="subscription">7. Subscription &amp; auto-renewal</h2>
-    <p>Tradevis offers a paid subscription (&ldquo;Tradevis Pro&rdquo;) that unlocks the AI features beyond the free-tier daily limits.</p>
-
-    <p><strong>What Tradevis Pro unlocks:</strong></p>
-    <ul>
-      <li>AI Trade Approval &mdash; one-tap setup verdict with structured trade plan on the chart</li>
-      <li>Smart Signal Scanner &mdash; push notifications when our server-side scanner finds a setup that passes our gates</li>
-      <li>Trading DNA Analytics &mdash; personal patterns from your trade journal (best/worst hours, sessions, pairs)</li>
-      <li>Psychology Coaching &mdash; consecutive-loss alerts, revenge-trade detection, overtrading warnings</li>
-      <li>Persistent Memory &mdash; saved lessons the AI recalls across conversations</li>
-      <li>Chart AI Overlay &mdash; in-context AI commentary on the chart pane with optional spoken responses</li>
-    </ul>
+    <p>Using Tradevis requires an active subscription (&ldquo;Tradevis Pro&rdquo;) or an active free trial where one is offered. Tradevis Pro includes Guardian and all its controls, connecting your broker accounts, behavioural coaching, the journal and analytics, AI coaching insights, the accountability partner and the discipline certificate.</p>
 
     <p><strong>Plans, prices, and renewal:</strong></p>
     <ul>
       <li><strong>Subscription title:</strong> Tradevis Pro</li>
-      <li><strong>Weekly plan:</strong> US$11.99 per week, automatically renewing every 7 days.</li>
-      <li><strong>Monthly plan:</strong> US$39.99 per month, automatically renewing every 1 month.</li>
-      <li><strong>Yearly plan:</strong> US$299.99 per year, automatically renewing every 12 months.</li>
-      <li>Prices are in US dollars or the local equivalent set by Apple at the time of purchase. The price for any renewal will be the price in effect at the time of renewal.</li>
+      <li><strong>Plans:</strong> Tradevis Pro is offered as auto-renewing subscriptions (currently monthly and yearly; some app versions also offer a weekly plan). Each plan renews for the same period (1 week, 1 month, or 12 months).</li>
+      <li><strong>Prices:</strong> The current price of each plan, in your local currency, is shown in the app before you subscribe and on Apple&rsquo;s purchase confirmation. That is the price you are charged.</li>
+      <li><strong>Free trial:</strong> We may offer a free trial on some plans; its length is shown before you start it. If you start a trial and do not cancel it at least 24 hours before it ends, it automatically converts to a paid auto-renewing subscription at the then-current price for the plan you selected, and your Apple ID is charged at that time. You can cancel during the trial at no charge by turning off auto-renew in your Apple ID settings at least 24 hours before it ends. A free trial is available only where offered and only to Apple IDs that have not previously used a trial for this app.</li>
+      <li>The price for any renewal will be the price in effect at the time of renewal. If we change a price, Apple notifies you as required before it applies.</li>
       <li><strong>Auto-renewal:</strong> Every plan automatically renews at the end of its period unless auto-renew is turned off at least 24 hours before the end of the current period.</li>
       <li><strong>Account is charged:</strong> Payment is charged to your Apple ID account at confirmation of purchase and at each renewal.</li>
       <li><strong>Cancellation:</strong> You can cancel any time from <em>Settings &rarr; Apple ID &rarr; Subscriptions</em> on your iOS device. Cancellation takes effect at the end of the current paid period; you retain access until then.</li>
       <li><strong>Managing your subscription:</strong> Subscriptions can be managed by you, and auto-renewal can be turned off, in your Apple ID account settings on your device after purchase.</li>
-      <li><strong>Changing plan:</strong> You can switch between weekly, monthly, and yearly plans via Apple&rsquo;s subscription settings; Apple handles any proration between plans.</li>
+      <li><strong>Changing plan:</strong> You can switch between plans via Apple&rsquo;s subscription settings; Apple handles any proration between plans.</li>
     </ul>
 
     <h2 id="refunds">8. Refunds</h2>
@@ -114,7 +110,7 @@
     <h2 id="use">9. Acceptable use</h2>
     <p>You agree not to:</p>
     <ul>
-      <li>Use Tradevis to provide financial advice to others, redistribute signals, or operate a paid signal service.</li>
+      <li>Use Tradevis to provide financial advice to others or to operate a paid signal or copy-trading service.</li>
       <li>Reverse engineer, decompile, scrape, or extract data from the app or its backend, except as permitted by mandatory law.</li>
       <li>Attempt to circumvent rate limits, paywalls, or authentication.</li>
       <li>Use the app to violate any law including securities, sanctions, or anti-money-laundering law.</li>
